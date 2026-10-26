@@ -1,0 +1,49 @@
+# الأسرار - لا نرفعها أبداً لـ GitHub
+.env
+*.env
+.env.local
+.env.*.local
+
+# ملفات Python المؤقتة
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# مجلد البيئة الافتراضية
+venv/
+.venv/
+env/
+ENV/
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ملفات IDE والمحررات
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ملفات Build والتوزيع
+build/
+dist/
+*.egg-info/
+*.egg
+
+# قواعد البيانات المحلية
+*.sqlite3
+*.db
+
+# ملفات Logs
+*.log
+logs/
+
+# ملفات مؤقتة
+*.tmp
+*.bak
